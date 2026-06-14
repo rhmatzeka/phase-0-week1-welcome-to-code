@@ -1,18 +1,17 @@
-let nama = ("rahmat");
-let peran = ("ksatria");
-
-peran = peran ? peran.trim().toLowerCase() : "";
+let nama = "Rahmat", peran = "ksatria";
 
 if (nama === "" || nama === null) {
-    console.log("nama tidak boleh kosong");
-} else if (peran === "") {
-    console.log("peran tidak boleh kosong");
-} else if (peran === "ksatria") {
-    console.log(`halo ${peran} ${nama} mari cari musuh`);
-} else if (peran === "tabib") {
-    console.log(`halo ${peran} ${nama} mari sembuhkan rakyat`);
-}else if (peran === "penyihir") {
-    console.log(`halo ${peran} ${nama} mari ciptakan keajaiban`);
-} else {
-    console.log("jadi bot ajadeh kamu, pilihannya ga ada");
-}   
+	console.log("nama harus di isi")
+}
+else if (peran === "") {
+  console.log("peran wajib di isi")
+}
+else if (peran === "ksatria") {
+  console.log(`halo ${nama} ${peran} kamu dapat menyerang dengan senjatamu`)
+}
+else if (peran === "tabib") {
+  cosole.log(`halo ${nama} ${tabib} kamu dapat menyerang dengan senjatamu`)
+}
+else if (peran === "penyihir") {
+  console.log(`halo ${nama} ${penyihir} kamu dapat menyerang dengan senjatamu`)
+}
