@@ -1,10 +1,10 @@
 // looping pertama
 console.log("ini looping pertama")
 console.log("\n")
-let i = 0
+let i = 0 
 while (i < 10) {
-    console.log(i)
-    i++
+  console.log(i)
+  i++
 }
 
 console.log("\n")
